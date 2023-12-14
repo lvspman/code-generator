@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lvDiyCode.iml" filepath="$PROJECT_DIR$/lvDiyCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lvDiyCode-basic.iml" filepath="$PROJECT_DIR$/lvDiyCode-basic.iml" />
+    </modules>
+  </component>
+</project>
