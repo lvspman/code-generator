@@ -18,7 +18,7 @@ import java.util.Map;
 public class DynamicGenerator {
     public static void main(String[] args) throws IOException, TemplateException {
 //        模板路径
-        String inputPath = System.getProperty("user.dir")+ File.separator+"lvDiyCode-basic"+File.separator +"src/main/resources/templates";
+        String inputPath = System.getProperty("user.dir")+File.separator +"src/main/resources/templates";
 //        输出路径
         String outputPath = System.getProperty("user.dir")+ File.separator + "MainTemplate.java";
 
@@ -41,8 +41,7 @@ public class DynamicGenerator {
      */
     public static void doGenerate(String inputPath, String outputPath, Object dataModel) throws IOException, TemplateException {
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_22);
-        String templatesPath = System.getProperty("user.dir")+ File.separator+"lvDiyCode-basic"+File.separator +"src/main/resources/templates";
-//        System.out.println("templatesPath = " + templatesPath);
+        String templatesPath = System.getProperty("user.dir")+ File.separator +"src/main/resources/templates";
         cfg.setDirectoryForTemplateLoading(new File(templatesPath));
         cfg.setDefaultEncoding("UTF-8");
 

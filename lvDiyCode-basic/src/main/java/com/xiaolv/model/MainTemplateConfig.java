@@ -8,7 +8,7 @@ import lombok.Data;
  */
 @Data
 public class MainTemplateConfig {
-    private String name;
-    private String outputText;
-    private boolean loop;
+    private String name ="小吕";
+    private String outputText = "this is my output";
+    private boolean loop = false;
 }

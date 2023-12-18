@@ -20,11 +20,12 @@ public class MainGenerator{
          */
         public static void doGenerate(Object model) throws TemplateException, IOException {
             String projectPath = System.getProperty("user.dir");
+            String parentPath = new File(projectPath).getParent();
             // 整个项目的根路径
 //            File parentFile = new File(projectPath).getParentFile();
             // 输入路径
-            String inputPath = new File(projectPath, "lvDiyCode-demo-projects/acm-template").getAbsolutePath();
-            String outputPath = projectPath;
+            String inputPath = new File(parentPath, "lvDiyCode-demo-projects/acm-template").getAbsolutePath();
+            String outputPath = parentPath;
             // 生成静态文件
             StaticGenerator.copyFilesByRecursive(inputPath, outputPath);
             // 生成动态文件
