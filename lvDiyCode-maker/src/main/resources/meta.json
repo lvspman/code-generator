@@ -6,7 +6,8 @@
   "author": "吕小匠",
   "createTime": "2023-12-21",
   "fileConfig": {
-    "inputRootPath": "D:/study/project/lvDiyCode/lvDiyCode-demo-projects/acm-template-pro",
+    "sourceRootPath": "D:/study/project/lvDiyCode/lvDiyCode-demo-projects/acm-template-pro",
+    "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "generated",
     "type": "dir",
     "files": [

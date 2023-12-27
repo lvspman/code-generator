@@ -38,12 +38,6 @@ public class FileGenerator {
         }
 
     public static void main(String[] args) throws TemplateException, IOException {
-//        Meta meta = MetaManager.getMeta();
-//
-//        String inputRootPath = meta.getFileConfig().getInputRootPath();
-//        String outputRootPath = meta.getFileConfig().getOutputRootPath();
-
-
         Meta meta = MetaManager.getMetaObject();
         System.out.println(meta);
 

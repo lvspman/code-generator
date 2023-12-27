@@ -1,13 +1,11 @@
 package com.xiaolv.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.util.StrUtil;
-import com.sun.tools.javac.util.StringUtils;
 import com.xiaolv.generator.file.FileGenerator;
 import com.xiaolv.model.DataModel;
 import lombok.Data;
-import picocli.CommandLine.Option;
 import picocli.CommandLine.Command;
+import picocli.CommandLine.Option;
 
 import java.util.concurrent.Callable;
 
