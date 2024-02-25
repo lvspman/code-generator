@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xiaolv</groupId>
-    <artifactId>lvDiyCode-basic</artifactId>
+    <artifactId>lvDiyCode-maker</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -81,5 +81,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
